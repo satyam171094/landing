@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/developer.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.text {
+    color: white;
+}
+
+.text h1{
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 407px;
+    font-size: 4rem;
+
+}
+
+.text p{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 503px;
+    font-size: 2rem;
+}
+
+.text h2{
+    position: absolute;
+    margin-top: 156px;
+    margin-left: 414px;
+    font-size: 4rem;
+    word-spacing: 1rem;
+}
+
+.section2{
+    height: 25vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.section2 h2{
+    position: absolute;
+    margin-top: 49px;
+    margin-left: 371px;
+    font-size: 4rem;
+    
+}
+
+.section2 h1{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 57%;
+    font-size: 7rem;
+  }
+  
+.section3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 88vh;
+    background-color: rgb(245, 243, 243);
+    position: relative;
+    background-size: cover;
+}
+
+.one{
+    height: 64vh;
+    width: 319px;
+    margin-top: 5%;
+    margin-left: 6%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px rgb(252, 253, 253);
+}
+
+.one h1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one p{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.margin {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.section4{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+
+.contact{
+    height: 50vh;
+    width: 50%;
+    background-color: green;
+    position: relative;
+    color: white;
+ 
+}
+.contact h1{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 272px;
+    font-size: 3rem;    
+}
+
+.contact p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 272px;
+}
+
+.email{
+    position: absolute;
+    margin-top: 174px;
+    margin-left: 272px;
+}
+
+.about{
+    height: 50vh;
+    width: 50%;
+    background-color: brown;
+    position: relative;
+    color: white;
+ 
+}
+.about h1{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 272px;
+    font-size: 3rem;    
+}
+
+.about p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 272px;
+}
+
+footer{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+footer p{
+    position: absolute;
+    top: 42%;
+    left: 47%;
+}
